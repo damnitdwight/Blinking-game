@@ -2612,8 +2612,13 @@
     {
       "identifier": "target:91556-63e760b6-1e36-45a3-a338-5aea720ac215",
       "modelName": "target",
-      "targetPlatforms": [],
-      "targetUseCases": []
+      "targetPlatforms": [
+        "instagram",
+        "facebook"
+      ],
+      "targetUseCases": [
+        "STORIES"
+      ]
     },
     {
       "identifier": "block_instances_model:91558-63e760b6-1e36-45a3-a338-5aea720ac215",
@@ -2723,7 +2728,7 @@
     "9149663e760b61e3645a3a3385aea720ac215"
   ],
   "projectFormatType": "single_file",
-  "revision": "9149763e760b61e3645a3a3385aea720ac215",
+  "revision": "92966a5b212403145457ea1a30c388d442686",
   "usingPatchesV2": true,
   "version": {
     "dev": 0,
