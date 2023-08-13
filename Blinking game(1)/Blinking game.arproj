@@ -1,0 +1,4362 @@
+{
+  "allowYogaMigration": true,
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "children": [
+    {
+      "children": [
+        {
+          "assetLocator": "92512-702bab05-1b61-4f60-a564-f8d36085a932",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "fontIdentity": "com.facebook.editor.fonts.facebooksans-bold",
+          "identifier": "local_font_model:92511-702bab05-1b61-4f60-a564-f8d36085a932",
+          "isExternalAsset": false,
+          "modelName": "local_font_model",
+          "name": "Facebook Sans Bold"
+        }
+      ],
+      "identifier": "fonts:91500-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "fonts"
+    },
+    {
+      "identifier": "generic_m_l_models_model:91502-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "generic_m_l_models_model"
+    },
+    {
+      "children": [
+        {
+          "alphaPremultiplicationMode": "should_premultiply",
+          "assetDataHash": "f8445b564c6294fe871dd3b9f79fc4d6",
+          "assetLocator": "textures/Bg.png",
+          "children": [
+            {
+              "assetDataHash": "f8445b564c6294fe871dd3b9f79fc4d6",
+              "colorCount": 33495,
+              "detectedAlphaChannel": "eight_bit_full_range",
+              "detectedOriginalFormat": "png",
+              "entropyOfDistribution": 3.9074097535721513,
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "pixelsHigh": 695,
+              "pixelsWide": 1024
+            }
+          ],
+          "colorEncoding": "linear",
+          "compressionQuality": "high",
+          "coordMapping": "none",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "filter": "bilinear",
+          "hasOfflineMipmaps": false,
+          "height": 695,
+          "identifier": "texture:92081-5883a8fa-09b0-4de5-a6d4-a46e187aa5fe",
+          "importIssues": {},
+          "isExternalAsset": true,
+          "modelName": "texture",
+          "name": "Bg",
+          "smartTextureTargetSizeLimit": "largest",
+          "targetSize": "largest",
+          "uWrapMode": "clamp",
+          "vWrapMode": "clamp",
+          "width": 1024
+        },
+        {
+          "frameRate": 0,
+          "identifier": "sequenceTexture:92011-2b706abb-b196-4f8b-ae5e-89428875a529",
+          "isSourceTextureIdentifierEnabled": true,
+          "loop": true,
+          "modelName": "sequenceTexture",
+          "name": "ani_player",
+          "randomizeStartFrame": false,
+          "sourceTextureIdentifier": "textureGroup:91913-702bab05-1b61-4f60-a564-f8d36085a932"
+        },
+        {
+          "children": [
+            {
+              "alphaPremultiplicationMode": "should_premultiply",
+              "assetDataHash": "2a97e36b6c0403b77c2538217304dcfa",
+              "assetLocator": "textures/01.png",
+              "children": [
+                {
+                  "assetDataHash": "2a97e36b6c0403b77c2538217304dcfa",
+                  "colorCount": 15067,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 2.4441684836180406,
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "pixelsHigh": 512,
+                  "pixelsWide": 512
+                }
+              ],
+              "colorEncoding": "linear",
+              "compressionQuality": "high",
+              "coordMapping": "none",
+              "excludeDuringExport": false,
+              "excludeFromPackage": false,
+              "filter": "bilinear",
+              "hasOfflineMipmaps": false,
+              "height": 512,
+              "identifier": "texture:91903-702bab05-1b61-4f60-a564-f8d36085a932",
+              "importIssues": {},
+              "isExternalAsset": true,
+              "modelName": "texture",
+              "name": "01",
+              "smartTextureTargetSizeLimit": "largest",
+              "targetSize": "largest",
+              "uWrapMode": "clamp",
+              "vWrapMode": "clamp",
+              "width": 512
+            },
+            {
+              "alphaPremultiplicationMode": "should_premultiply",
+              "assetDataHash": "84d1ab4c7ef207ebfaa16952195bfdf0",
+              "assetLocator": "textures/02.png",
+              "children": [
+                {
+                  "assetDataHash": "84d1ab4c7ef207ebfaa16952195bfdf0",
+                  "colorCount": 16502,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 2.658065519400929,
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "pixelsHigh": 512,
+                  "pixelsWide": 512
+                }
+              ],
+              "colorEncoding": "linear",
+              "compressionQuality": "high",
+              "coordMapping": "none",
+              "excludeDuringExport": false,
+              "excludeFromPackage": false,
+              "filter": "bilinear",
+              "hasOfflineMipmaps": false,
+              "height": 512,
+              "identifier": "texture:91907-702bab05-1b61-4f60-a564-f8d36085a932",
+              "importIssues": {},
+              "isExternalAsset": true,
+              "modelName": "texture",
+              "name": "02",
+              "smartTextureTargetSizeLimit": "largest",
+              "targetSize": "largest",
+              "uWrapMode": "clamp",
+              "vWrapMode": "clamp",
+              "width": 512
+            },
+            {
+              "alphaPremultiplicationMode": "should_premultiply",
+              "assetDataHash": "fd04acc772910d3234e0a4a10eae7f5c",
+              "assetLocator": "textures/03.png",
+              "children": [
+                {
+                  "assetDataHash": "fd04acc772910d3234e0a4a10eae7f5c",
+                  "colorCount": 21556,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.6407323723089373,
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "pixelsHigh": 512,
+                  "pixelsWide": 512
+                }
+              ],
+              "colorEncoding": "linear",
+              "compressionQuality": "high",
+              "coordMapping": "none",
+              "excludeDuringExport": false,
+              "excludeFromPackage": false,
+              "filter": "bilinear",
+              "hasOfflineMipmaps": false,
+              "height": 512,
+              "identifier": "texture:91911-702bab05-1b61-4f60-a564-f8d36085a932",
+              "importIssues": {},
+              "isExternalAsset": true,
+              "modelName": "texture",
+              "name": "03",
+              "smartTextureTargetSizeLimit": "largest",
+              "targetSize": "largest",
+              "uWrapMode": "clamp",
+              "vWrapMode": "clamp",
+              "width": 512
+            }
+          ],
+          "identifier": "textureGroup:91913-702bab05-1b61-4f60-a564-f8d36085a932",
+          "modelName": "textureGroup",
+          "name": "0[1-3]",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:91903-702bab05-1b61-4f60-a564-f8d36085a932",
+            "texture:91907-702bab05-1b61-4f60-a564-f8d36085a932",
+            "texture:91911-702bab05-1b61-4f60-a564-f8d36085a932"
+          ]
+        },
+        {
+          "frameRate": 0,
+          "identifier": "sequenceTexture:92337-702bab05-1b61-4f60-a564-f8d36085a932",
+          "isSourceTextureIdentifierEnabled": true,
+          "loop": true,
+          "modelName": "sequenceTexture",
+          "name": "ani_collider",
+          "randomizeStartFrame": false,
+          "sourceTextureIdentifier": "textureGroup:92351-702bab05-1b61-4f60-a564-f8d36085a932"
+        },
+        {
+          "children": [
+            {
+              "alphaPremultiplicationMode": "should_premultiply",
+              "assetDataHash": "a2996ffaab1cca83ada12b475516ba22",
+              "assetLocator": "textures/Colli1.png",
+              "children": [
+                {
+                  "assetDataHash": "a2996ffaab1cca83ada12b475516ba22",
+                  "colorCount": 2821,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 4.222963167474387,
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "pixelsHigh": 512,
+                  "pixelsWide": 512
+                }
+              ],
+              "colorEncoding": "linear",
+              "compressionQuality": "high",
+              "coordMapping": "none",
+              "excludeDuringExport": false,
+              "excludeFromPackage": false,
+              "filter": "bilinear",
+              "hasOfflineMipmaps": false,
+              "height": 512,
+              "identifier": "texture:92341-702bab05-1b61-4f60-a564-f8d36085a932",
+              "importIssues": {},
+              "isExternalAsset": true,
+              "modelName": "texture",
+              "name": "Colli1",
+              "smartTextureTargetSizeLimit": "largest",
+              "targetSize": "largest",
+              "uWrapMode": "clamp",
+              "vWrapMode": "clamp",
+              "width": 512
+            },
+            {
+              "alphaPremultiplicationMode": "should_premultiply",
+              "assetDataHash": "04ed406f6c8bf547fe600285f7ac5d7e",
+              "assetLocator": "textures/Colli2.png",
+              "children": [
+                {
+                  "assetDataHash": "04ed406f6c8bf547fe600285f7ac5d7e",
+                  "colorCount": 999,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 1.8166289979723516,
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "pixelsHigh": 512,
+                  "pixelsWide": 512
+                }
+              ],
+              "colorEncoding": "linear",
+              "compressionQuality": "high",
+              "coordMapping": "none",
+              "excludeDuringExport": false,
+              "excludeFromPackage": false,
+              "filter": "bilinear",
+              "hasOfflineMipmaps": false,
+              "height": 512,
+              "identifier": "texture:92345-702bab05-1b61-4f60-a564-f8d36085a932",
+              "importIssues": {},
+              "isExternalAsset": true,
+              "modelName": "texture",
+              "name": "Colli2",
+              "smartTextureTargetSizeLimit": "largest",
+              "targetSize": "largest",
+              "uWrapMode": "clamp",
+              "vWrapMode": "clamp",
+              "width": 512
+            },
+            {
+              "alphaPremultiplicationMode": "should_premultiply",
+              "assetDataHash": "b4bed8d4250e4692579393b53963000e",
+              "assetLocator": "textures/Colli3.png",
+              "children": [
+                {
+                  "assetDataHash": "b4bed8d4250e4692579393b53963000e",
+                  "colorCount": 3310,
+                  "detectedAlphaChannel": "eight_bit_full_range",
+                  "detectedOriginalFormat": "png",
+                  "entropyOfDistribution": 3.8826142172053677,
+                  "modelName": "data_texture_metadata_model",
+                  "name": "data_texture_metadata_model0",
+                  "pixelsHigh": 512,
+                  "pixelsWide": 512
+                }
+              ],
+              "colorEncoding": "linear",
+              "compressionQuality": "high",
+              "coordMapping": "none",
+              "excludeDuringExport": false,
+              "excludeFromPackage": false,
+              "filter": "bilinear",
+              "hasOfflineMipmaps": false,
+              "height": 512,
+              "identifier": "texture:92349-702bab05-1b61-4f60-a564-f8d36085a932",
+              "importIssues": {},
+              "isExternalAsset": true,
+              "modelName": "texture",
+              "name": "Colli3",
+              "smartTextureTargetSizeLimit": "largest",
+              "targetSize": "largest",
+              "uWrapMode": "clamp",
+              "vWrapMode": "clamp",
+              "width": 512
+            }
+          ],
+          "identifier": "textureGroup:92351-702bab05-1b61-4f60-a564-f8d36085a932",
+          "modelName": "textureGroup",
+          "name": "Colli[1-3]",
+          "sequenceFramesTextureIdentifiers": [
+            "texture:92341-702bab05-1b61-4f60-a564-f8d36085a932",
+            "texture:92345-702bab05-1b61-4f60-a564-f8d36085a932",
+            "texture:92349-702bab05-1b61-4f60-a564-f8d36085a932"
+          ]
+        },
+        {
+          "alphaPremultiplicationMode": "should_premultiply",
+          "assetDataHash": "210ec7f6145354c2ebc9b9825e3c9a14",
+          "assetLocator": "textures/gameover-1.jpg",
+          "children": [
+            {
+              "assetDataHash": "210ec7f6145354c2ebc9b9825e3c9a14",
+              "colorCount": 34741,
+              "detectedAlphaChannel": "no_alpha",
+              "detectedOriginalFormat": "jpeg",
+              "entropyOfDistribution": 3.2622953794800926,
+              "modelName": "data_texture_metadata_model",
+              "name": "data_texture_metadata_model0",
+              "pixelsHigh": 1024,
+              "pixelsWide": 1024
+            }
+          ],
+          "colorEncoding": "linear",
+          "compressionQuality": "high",
+          "coordMapping": "none",
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "filter": "bilinear",
+          "hasOfflineMipmaps": false,
+          "height": 1024,
+          "identifier": "texture:93023-702bab05-1b61-4f60-a564-f8d36085a932",
+          "importIssues": {},
+          "isExternalAsset": true,
+          "modelName": "texture",
+          "name": "gameover-1",
+          "smartTextureTargetSizeLimit": "largest",
+          "targetSize": "largest",
+          "uWrapMode": "clamp",
+          "vWrapMode": "clamp",
+          "width": 1024
+        }
+      ],
+      "identifier": "textures:91504-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "textures"
+    },
+    {
+      "children": [
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "blendMode": "alpha",
+          "colorEncoding": "linear",
+          "cullMode": "back",
+          "diffuseFactor": "0xffffffff",
+          "diffuseTextureName": "texture:92081-5883a8fa-09b0-4de5-a6d4-a46e187aa5fe",
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "identifier": "defaultMaterial:91935-63e760b6-1e36-45a3-a338-5aea720ac215",
+          "importIssues": {},
+          "invertMultiply": false,
+          "isDiffuseTextureIdentifierEnabled": true,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMultiplyTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isReflectiveTextureIdentifierEnabled": false,
+          "isSpecularTextureIdentifierEnabled": false,
+          "lightingEnabled": false,
+          "modelName": "defaultMaterial",
+          "multiplyMode": "alpha_only",
+          "multiplyTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "name": "mat_Background",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "reflectiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "shininessFactor": 1,
+          "specularTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "transparency": 1,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
+        },
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "blendMode": "alpha",
+          "colorEncoding": "linear",
+          "cullMode": "back",
+          "diffuseFactor": "0xffffffff",
+          "diffuseTextureName": "sequenceTexture:92011-2b706abb-b196-4f8b-ae5e-89428875a529",
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "identifier": "defaultMaterial:91889-2b706abb-b196-4f8b-ae5e-89428875a529",
+          "importIssues": {},
+          "invertMultiply": false,
+          "isDiffuseTextureIdentifierEnabled": true,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMultiplyTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isReflectiveTextureIdentifierEnabled": false,
+          "isSpecularTextureIdentifierEnabled": false,
+          "lightingEnabled": false,
+          "modelName": "defaultMaterial",
+          "multiplyMode": "alpha_only",
+          "multiplyTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "name": "mat_player",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "reflectiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "shininessFactor": 1,
+          "specularTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "transparency": 1,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
+        },
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "blendMode": "alpha",
+          "colorEncoding": "linear",
+          "cullMode": "back",
+          "diffuseFactor": "0xffffffff",
+          "diffuseTextureName": "sequenceTexture:92337-702bab05-1b61-4f60-a564-f8d36085a932",
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "identifier": "defaultMaterial:92195-702bab05-1b61-4f60-a564-f8d36085a932",
+          "importIssues": {},
+          "invertMultiply": false,
+          "isDiffuseTextureIdentifierEnabled": true,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMultiplyTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isReflectiveTextureIdentifierEnabled": false,
+          "isSpecularTextureIdentifierEnabled": false,
+          "lightingEnabled": false,
+          "modelName": "defaultMaterial",
+          "multiplyMode": "alpha_only",
+          "multiplyTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "name": "mat_collider",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "reflectiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "shininessFactor": 1,
+          "specularTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "transparency": 1,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
+        },
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "blendMode": "alpha",
+          "colorEncoding": "linear",
+          "cullMode": "back",
+          "diffuseFactor": "0xffffffff",
+          "diffuseTextureName": "texture:93023-702bab05-1b61-4f60-a564-f8d36085a932",
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "identifier": "defaultMaterial:92851-702bab05-1b61-4f60-a564-f8d36085a932",
+          "importIssues": {},
+          "invertMultiply": false,
+          "isDiffuseTextureIdentifierEnabled": true,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMultiplyTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isReflectiveTextureIdentifierEnabled": false,
+          "isSpecularTextureIdentifierEnabled": false,
+          "lightingEnabled": false,
+          "modelName": "defaultMaterial",
+          "multiplyMode": "alpha_only",
+          "multiplyTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "name": "mat_gameover",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "reflectiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "shininessFactor": 1,
+          "specularTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "transparency": 1,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
+        },
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "blendMode": "alpha",
+          "colorEncoding": "linear",
+          "cullMode": "back",
+          "diffuseFactor": "0xffffffff",
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "identifier": "defaultMaterial:92260-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "importIssues": {},
+          "invertMultiply": false,
+          "isDiffuseTextureIdentifierEnabled": false,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMultiplyTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isReflectiveTextureIdentifierEnabled": false,
+          "isSpecularTextureIdentifierEnabled": false,
+          "lightingEnabled": false,
+          "modelName": "defaultMaterial",
+          "multiplyMode": "alpha_only",
+          "multiplyTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "name": "mat_white",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "reflectiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "shininessFactor": 1,
+          "specularTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "transparency": 1,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
+        },
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "blendMode": "alpha",
+          "colorEncoding": "linear",
+          "cullMode": "back",
+          "diffuseFactor": "0xffff2600",
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "identifier": "defaultMaterial:92535-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "importIssues": {},
+          "invertMultiply": false,
+          "isDiffuseTextureIdentifierEnabled": false,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMultiplyTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isReflectiveTextureIdentifierEnabled": false,
+          "isSpecularTextureIdentifierEnabled": false,
+          "lightingEnabled": false,
+          "modelName": "defaultMaterial",
+          "multiplyMode": "alpha_only",
+          "multiplyTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "name": "mat_test_hit",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "reflectiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "shininessFactor": 1,
+          "specularTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "transparency": 1,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
+        },
+        {
+          "alphaTestEnabled": false,
+          "alphaTestThreshold": 0,
+          "blendMode": "alpha",
+          "colorEncoding": "linear",
+          "cullMode": "back",
+          "diffuseFactor": "0xff00f900",
+          "diffuseTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "doubleSided": false,
+          "emissiveEnabled": false,
+          "emissiveFactor": "0xff000000",
+          "emissiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "identifier": "defaultMaterial:93719-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "importIssues": {},
+          "invertMultiply": false,
+          "isDiffuseTextureIdentifierEnabled": false,
+          "isEmissiveTextureIdentifierEnabled": false,
+          "isMultiplyTextureIdentifierEnabled": false,
+          "isNormalTextureIdentifierEnabled": false,
+          "isReflectiveTextureIdentifierEnabled": false,
+          "isSpecularTextureIdentifierEnabled": false,
+          "lightingEnabled": false,
+          "modelName": "defaultMaterial",
+          "multiplyMode": "alpha_only",
+          "multiplyTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "name": "mat_test_jump",
+          "normalTextureScale": 1,
+          "normalTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "readDepth": true,
+          "reflectiveTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "shininessFactor": 1,
+          "specularTextureTransform": {
+            "offsetU": 0,
+            "offsetV": 0,
+            "rotation": 0,
+            "scaleU": 1,
+            "scaleV": 1
+          },
+          "transparency": 1,
+          "writeDepth": true,
+          "writesToColorBufferAlpha": true,
+          "writesToColorBufferBlue": true,
+          "writesToColorBufferGreen": true,
+          "writesToColorBufferRed": true
+        }
+      ],
+      "identifier": "materials:91506-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "materials"
+    },
+    {
+      "identifier": "prefabs:91508-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "prefabs"
+    },
+    {
+      "identifier": "3_d_objects_model:91510-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "3_d_objects_model"
+    },
+    {
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "children": [
+        {
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "children": [
+            {
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "children": [
+                {
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "children": [
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "color": "0xffffffff",
+                      "hidden": false,
+                      "identifier": "ambient_light_source_model:91584-63e760b6-1e36-45a3-a338-5aea720ac215",
+                      "intensity": 0.20000000298023224,
+                      "layerIdentifier": "layer0",
+                      "modelName": "ambient_light_source_model",
+                      "name": "ambientLight0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "color": "0xffffffff",
+                      "hidden": false,
+                      "identifier": "directional_light_source_model:91586-63e760b6-1e36-45a3-a338-5aea720ac215",
+                      "intensity": 0.800000011920929,
+                      "layerIdentifier": "layer0",
+                      "modelName": "directional_light_source_model",
+                      "name": "directionalLight0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "shadowBias": 0,
+                      "shadowFrustumDepth": 1,
+                      "shadowFrustumSize": 0.5,
+                      "shadowNear": 0.05,
+                      "shadowSoftness": 0,
+                      "shadowStrength": 1,
+                      "shadowTextureSize": 512,
+                      "tags": [],
+                      "transform": {
+                        "rx": -0.7853981633974483,
+                        "ry": 0.08726646259971647,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0.03,
+                        "y": 0.25,
+                        "z": 0.3
+                      }
+                    },
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "children": [
+                        {
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "children": [
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:91927-63e760b6-1e36-45a3-a338-5aea720ac215",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:91935-63e760b6-1e36-45a3-a338-5aea720ac215",
+                              "modelName": "plane",
+                              "name": "bg1",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 3.615826926761656E-8,
+                                "ry": -1.9073489454513037E-9,
+                                "rz": 4.768371808516747E-10,
+                                "sx": 8000,
+                                "sy": 5000,
+                                "sz": 5000,
+                                "x": 200,
+                                "y": -178,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:93607-5883a8fa-09b0-4de5-a6d4-a46e187aa5fe",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:91935-63e760b6-1e36-45a3-a338-5aea720ac215",
+                              "modelName": "plane",
+                              "name": "bg2",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": -1.455191539842195E-18,
+                                "ry": 0,
+                                "rz": 4.768371808516747E-10,
+                                "sx": 8000,
+                                "sy": 5000,
+                                "sz": 5000,
+                                "x": 1000,
+                                "y": -178,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            }
+                          ],
+                          "height": 844,
+                          "hidden": false,
+                          "identifier": "composition_model:91923-63e760b6-1e36-45a3-a338-5aea720ac215",
+                          "layerIdentifier": "layer0",
+                          "modelName": "composition_model",
+                          "name": "Background",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "sizingMode": "full_screen",
+                          "spaceMode": "camera_space",
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0005924170836806297,
+                            "sy": 0.0005924170836806297,
+                            "sz": 0.0005924170836806297,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 390
+                        },
+                        {
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "children": [
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:91881-2b706abb-b196-4f8b-ae5e-89428875a529",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:91889-2b706abb-b196-4f8b-ae5e-89428875a529",
+                              "modelName": "plane",
+                              "name": "player",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 2000,
+                                "sy": 2000,
+                                "sz": 2000,
+                                "x": -124.98870849609375,
+                                "y": -280,
+                                "z": -0.00054931640625
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:92187-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:92195-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "modelName": "plane",
+                              "name": "collider",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1500,
+                                "sy": 1500,
+                                "sz": 1500,
+                                "x": 250,
+                                "y": -290,
+                                "z": -0.00018310546875
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            }
+                          ],
+                          "height": 844,
+                          "hidden": false,
+                          "identifier": "composition_model:91877-2b706abb-b196-4f8b-ae5e-89428875a529",
+                          "layerIdentifier": "layer0",
+                          "modelName": "composition_model",
+                          "name": "game element",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "sizingMode": "full_screen",
+                          "spaceMode": "camera_space",
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0005924170836806297,
+                            "sy": 0.0005924170836806297,
+                            "sz": 0.0005924170836806297,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 390
+                        },
+                        {
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "children": [
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:93025-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:92260-7e46843c-eaac-442c-910a-80e7d9fbc362",
+                              "modelName": "plane",
+                              "name": "WhiteBgd",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 5000,
+                                "sy": 9000,
+                                "sz": 1000,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:92843-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:92851-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "modelName": "plane",
+                              "name": "gameoverscreen",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 3989.989013671875,
+                                "sy": 3991.27197265625,
+                                "sz": 2430.833740234375,
+                                "x": 0.017984509468078613,
+                                "y": -216.7794647216797,
+                                "z": -0.00054931640625
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "aspectRatioValue": 1,
+                              "cameraVisibility": "back|front",
+                              "color": "0xff000000",
+                              "editable": false,
+                              "fillMode": "none",
+                              "fontIdentifier": "local_font_model:92511-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "fontSize": 40,
+                              "height": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 100
+                              },
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalTextAlignment": "center",
+                              "identifier": "2_d_text_model:92438-7e46843c-eaac-442c-910a-80e7d9fbc362",
+                              "isDynamicText": false,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "letterSpacing": 0,
+                              "lineSpacing": 30,
+                              "locksAspectRatio": false,
+                              "modelName": "2_d_text_model",
+                              "name": "Restart_text",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "pinnedBottom": false,
+                              "pinnedBottomValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedHorizontalCenterValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedLeft": true,
+                              "pinnedLeftValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedRight": false,
+                              "pinnedRightValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedTop": true,
+                              "pinnedTopValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 657
+                              },
+                              "pinnedVerticalCenterValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "positionX": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "positionY": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "rotation": 0,
+                              "scaleToFit": false,
+                              "scaleX": 1,
+                              "scaleY": 1,
+                              "tags": [],
+                              "text": "Tap to restart\n",
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 657,
+                                "z": 0.00006103515625
+                              },
+                              "usesFlexibleHeight": false,
+                              "usesFlexibleWidth": true,
+                              "verticalAlignment": "center",
+                              "verticalTextAlignment": "center",
+                              "width": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 20
+                                },
+                                "value": 100
+                              }
+                            }
+                          ],
+                          "height": 844,
+                          "hidden": true,
+                          "identifier": "composition_model:92839-702bab05-1b61-4f60-a564-f8d36085a932",
+                          "layerIdentifier": "layer0",
+                          "modelName": "composition_model",
+                          "name": "GameOver",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "sizingMode": "full_screen",
+                          "spaceMode": "camera_space",
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0005924170836806297,
+                            "sy": 0.0005924170836806297,
+                            "sz": 0.0005924170836806297,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 390
+                        },
+                        {
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "children": [
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "aspectRatioValue": 1,
+                              "cameraVisibility": "back|front",
+                              "color": "0xffff2600",
+                              "editable": false,
+                              "fillMode": "none",
+                              "fontIdentifier": "local_font_model:92511-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "fontSize": 40,
+                              "height": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 100
+                              },
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalTextAlignment": "center",
+                              "identifier": "2_d_text_model:92509-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "isDynamicText": false,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "letterSpacing": 0,
+                              "lineSpacing": 30,
+                              "locksAspectRatio": false,
+                              "modelName": "2_d_text_model",
+                              "name": "YOUR SCORE",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "pinnedBottom": false,
+                              "pinnedBottomValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedHorizontalCenterValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedLeft": true,
+                              "pinnedLeftValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedRight": false,
+                              "pinnedRightValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedTop": true,
+                              "pinnedTopValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedVerticalCenterValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "positionX": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "positionY": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "rotation": 0,
+                              "scaleToFit": false,
+                              "scaleX": 1,
+                              "scaleY": 1,
+                              "tags": [],
+                              "text": "YOUR SCORE\n",
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                              },
+                              "usesFlexibleHeight": false,
+                              "usesFlexibleWidth": true,
+                              "verticalAlignment": "center",
+                              "verticalTextAlignment": "center",
+                              "width": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 20
+                                },
+                                "value": 100
+                              }
+                            },
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "aspectRatioValue": 1,
+                              "cameraVisibility": "back|front",
+                              "color": "0xffff9200",
+                              "editable": false,
+                              "fillMode": "none",
+                              "fontIdentifier": "local_font_model:92511-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "fontSize": 80,
+                              "height": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 100
+                              },
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalTextAlignment": "center",
+                              "identifier": "2_d_text_model:92761-702bab05-1b61-4f60-a564-f8d36085a932",
+                              "isDynamicText": false,
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "letterSpacing": 0,
+                              "lineSpacing": 30,
+                              "locksAspectRatio": false,
+                              "modelName": "2_d_text_model",
+                              "name": "scoretext",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "pinnedBottom": false,
+                              "pinnedBottomValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedHorizontalCenterValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedLeft": true,
+                              "pinnedLeftValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedRight": false,
+                              "pinnedRightValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "pinnedTop": true,
+                              "pinnedTopValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 74
+                              },
+                              "pinnedVerticalCenterValue": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "positionX": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "positionY": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 10
+                                },
+                                "value": 0
+                              },
+                              "rotation": 0,
+                              "scaleToFit": false,
+                              "scaleX": 1,
+                              "scaleY": 1,
+                              "tags": [],
+                              "text": "0\n",
+                              "transform": {
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "x": 0,
+                                "y": 74,
+                                "z": 0.00006103515625
+                              },
+                              "usesFlexibleHeight": false,
+                              "usesFlexibleWidth": true,
+                              "verticalAlignment": "center",
+                              "verticalTextAlignment": "center",
+                              "width": {
+                                "unit": {
+                                  "multiplier": 1,
+                                  "unitBase": 20
+                                },
+                                "value": 100
+                              }
+                            }
+                          ],
+                          "height": 844,
+                          "hidden": false,
+                          "identifier": "composition_model:92443-7e46843c-eaac-442c-910a-80e7d9fbc362",
+                          "layerIdentifier": "layer0",
+                          "modelName": "composition_model",
+                          "name": "score",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "sizingMode": "full_screen",
+                          "spaceMode": "camera_space",
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0005924170836806297,
+                            "sy": 0.0005924170836806297,
+                            "sz": 0.0005924170836806297,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 390
+                        },
+                        {
+                          "animationMask": {
+                            "position": false,
+                            "rotation": false,
+                            "scale": false
+                          },
+                          "cameraVisibility": "back|front",
+                          "children": [
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:92527-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:92535-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                              "modelName": "plane",
+                              "name": "test_hit",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 2.4253192634554263E-14,
+                                "rz": 0,
+                                "sx": 300,
+                                "sy": 300,
+                                "sz": 300,
+                                "x": -156.2741241455078,
+                                "y": 225.51739501953125,
+                                "z": 0.0003662109375
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            },
+                            {
+                              "animationMask": {
+                                "position": false,
+                                "rotation": false,
+                                "scale": false
+                              },
+                              "cameraVisibility": "back|front",
+                              "castShadow": false,
+                              "hidden": false,
+                              "horizontalAlignment": "center",
+                              "horizontalSpacing": 0,
+                              "identifier": "plane:93390-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                              "isMaterialIdentifierEnabled": true,
+                              "layerIdentifier": "layer0",
+                              "materialIdentifier": "defaultMaterial:93719-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                              "modelName": "plane",
+                              "name": "test_jump",
+                              "outputVisibility": "preview|capture",
+                              "physicsEnabled": false,
+                              "receiveShadow": false,
+                              "renderPass": "main_scene",
+                              "tags": [],
+                              "textureHeight": 0.1,
+                              "textureWidth": 0.1,
+                              "transform": {
+                                "rx": 0,
+                                "ry": 2.4253192634554263E-14,
+                                "rz": 0,
+                                "sx": 300,
+                                "sy": 300,
+                                "sz": 300,
+                                "x": 145.68392944335938,
+                                "y": 225.5451202392578,
+                                "z": 0.00067138671875
+                              },
+                              "verticalAlignment": "center",
+                              "verticalSpacing": 0
+                            }
+                          ],
+                          "height": 844,
+                          "hidden": false,
+                          "identifier": "composition_model:92523-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                          "layerIdentifier": "layer0",
+                          "modelName": "composition_model",
+                          "name": "test",
+                          "outputVisibility": "preview|capture",
+                          "physicsEnabled": false,
+                          "sizingMode": "full_screen",
+                          "spaceMode": "camera_space",
+                          "tags": [],
+                          "transform": {
+                            "rx": 0,
+                            "ry": 0,
+                            "rz": 0,
+                            "sx": 0.0005924170836806297,
+                            "sy": 0.0005924170836806297,
+                            "sz": 0.0005924170836806297,
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                          },
+                          "width": 390
+                        }
+                      ],
+                      "faceId": 0,
+                      "hidden": false,
+                      "identifier": "facetracker:91819-63e760b6-1e36-45a3-a338-5aea720ac215",
+                      "layerIdentifier": "layer0",
+                      "modelName": "facetracker",
+                      "name": "faceTracker0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "ambient": false,
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "backedByPlaybackController": true,
+                      "cameraVisibility": "back|front",
+                      "children": [
+                        {
+                          "identifier": "audioTransforms:101109-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                          "modelName": "audioTransforms"
+                        }
+                      ],
+                      "distanceToMaxVolume": 0.2,
+                      "distanceToMinVolume": 4,
+                      "hidden": false,
+                      "identifier": "audiosource:101107-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "layerIdentifier": "layer0",
+                      "manualAudioOverrideEnableCapture": "no_override",
+                      "manualAudioOverrideEnableRender": "no_override",
+                      "modelName": "audiosource",
+                      "name": "loop",
+                      "needsContinuousLooping": true,
+                      "needsContinuousPlaying": false,
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "playbackControllerIdentifier": "playback_controller_model:100209-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "sound": "sound:99315-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "type": "playback_controller",
+                      "vocoderInput": false,
+                      "volume": 0.3087635387073854,
+                      "volumeMax": 1,
+                      "volumeMin": 0
+                    },
+                    {
+                      "ambient": false,
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "backedByPlaybackController": true,
+                      "cameraVisibility": "back|front",
+                      "children": [
+                        {
+                          "identifier": "audioTransforms:102017-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                          "modelName": "audioTransforms"
+                        }
+                      ],
+                      "distanceToMaxVolume": 0.2,
+                      "distanceToMinVolume": 4,
+                      "hidden": false,
+                      "identifier": "audiosource:102015-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "layerIdentifier": "layer0",
+                      "manualAudioOverrideEnableCapture": "no_override",
+                      "manualAudioOverrideEnableRender": "no_override",
+                      "modelName": "audiosource",
+                      "name": "gameover",
+                      "needsContinuousLooping": false,
+                      "needsContinuousPlaying": false,
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "playbackControllerIdentifier": "playback_controller_model:99761-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "sound": "sound:99317-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "type": "playback_controller",
+                      "vocoderInput": false,
+                      "volume": 0.6618890935724422,
+                      "volumeMax": 1,
+                      "volumeMin": 0
+                    },
+                    {
+                      "ambient": false,
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "backedByPlaybackController": true,
+                      "cameraVisibility": "back|front",
+                      "children": [
+                        {
+                          "identifier": "audioTransforms:102481-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                          "modelName": "audioTransforms"
+                        }
+                      ],
+                      "distanceToMaxVolume": 0.2,
+                      "distanceToMinVolume": 4,
+                      "hidden": false,
+                      "identifier": "audiosource:102479-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "layerIdentifier": "layer0",
+                      "manualAudioOverrideEnableCapture": "no_override",
+                      "manualAudioOverrideEnableRender": "no_override",
+                      "modelName": "audiosource",
+                      "name": "jump",
+                      "needsContinuousLooping": false,
+                      "needsContinuousPlaying": false,
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "playbackControllerIdentifier": "playback_controller_model:100207-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "sound": "sound:99313-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "type": "playback_controller",
+                      "vocoderInput": false,
+                      "volume": 1,
+                      "volumeMax": 1,
+                      "volumeMin": 0
+                    }
+                  ],
+                  "hidden": false,
+                  "identifier": "focalDistance:91576-63e760b6-1e36-45a3-a338-5aea720ac215",
+                  "layerIdentifier": "layer0",
+                  "modelName": "focalDistance",
+                  "name": "Focal Distance",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": -0.5361266732215881
+                  }
+                }
+              ],
+              "hidden": false,
+              "identifier": "camera:91574-63e760b6-1e36-45a3-a338-5aea720ac215",
+              "layerIdentifier": "layer0",
+              "modelName": "camera",
+              "name": "Camera",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "projectionType": "perspective",
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "updateSource": "gyro"
+            },
+            {
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "disabled": false,
+              "hidden": false,
+              "identifier": "microphone_model:91578-63e760b6-1e36-45a3-a338-5aea720ac215",
+              "layerIdentifier": "layer0",
+              "modelName": "microphone_model",
+              "name": "Microphone",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "previewAudioSource": "default",
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ],
+          "hidden": false,
+          "identifier": "device:91572-63e760b6-1e36-45a3-a338-5aea720ac215",
+          "layerIdentifier": "layer0",
+          "modelName": "device",
+          "name": "Device",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "hidden": false,
+      "identifier": "scene:91512-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "scene",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "children": [
+        {
+          "color": "0xff8c72ca",
+          "generationIndex": 0,
+          "hidden": false,
+          "identifier": "layer:91580-63e760b6-1e36-45a3-a338-5aea720ac215",
+          "modelName": "layer",
+          "name": "layer0"
+        }
+      ],
+      "identifier": "layers:91514-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "layers"
+    },
+    {
+      "identifier": "animations_model:91516-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "animations_model"
+    },
+    {
+      "identifier": "asset_collections_model:91518-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "asset_collections_model"
+    },
+    {
+      "identifier": "neural_networks_model:91520-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "neural_networks_model"
+    },
+    {
+      "identifier": "components_model:91522-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "components_model"
+    },
+    {
+      "identifier": "patch_graphs_model:91524-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "patch_graphs_model"
+    },
+    {
+      "identifier": "patch_assets_model:91526-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "patch_assets_model"
+    },
+    {
+      "identifier": "render_passes_model:91528-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "render_passes_model"
+    },
+    {
+      "identifier": "shaders:91530-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "shaders"
+    },
+    {
+      "children": [
+        {
+          "identifier": "script_bridging_variables_model:91534-63e760b6-1e36-45a3-a338-5aea720ac215",
+          "modelName": "script_bridging_variables_model"
+        }
+      ],
+      "identifier": "scripts_model:91532-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "scripts_model"
+    },
+    {
+      "identifier": "text_files_model:91536-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "text_files_model"
+    },
+    {
+      "identifier": "node_packages_model:91538-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "node_packages_model"
+    },
+    {
+      "excludeDuringExport": false,
+      "excludeFromPackage": false,
+      "identifier": "bundled_packages_model:91540-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "bundled_packages_model"
+    },
+    {
+      "identifier": "internal_sounds_model:91542-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "internal_sounds_model"
+    },
+    {
+      "basicCompressionAccuracy": "normal",
+      "basicCompressionFormat": 0,
+      "basicCompressionMethod": "fastest",
+      "basicSmartQuality": 100,
+      "basicSmartTextureTargetSizeLimit": "max1024",
+      "etcCompressionAccuracy": "normal",
+      "etcCompressionFormat": 0,
+      "etcSmartQuality": 100,
+      "etcSmartTextureTargetSizeLimit": "max1024",
+      "globalCompressionDefaultOn": true,
+      "globalSmartQuality": 75,
+      "globalSmartTextureTargetSizeLimit": "max1024",
+      "identifier": "exportConfig:91544-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "exportConfig",
+      "pvrCompressionAccuracy": "normal",
+      "pvrCompressionFormat": 0,
+      "pvrSmartQuality": 100,
+      "pvrSmartTextureTargetSizeLimit": "max1024",
+      "useDitheringForEtc": false,
+      "useDitheringForPvr": false,
+      "useSmartCompressionGlobally": true
+    },
+    {
+      "additionalEnabledChanges": null,
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTrackingMinVersion": 101,
+      "cameraControlDefaultCameraFacing": "unspecified",
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": true,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": "fxaa",
+      "effectRecordingFromMic": false,
+      "effectUses4KTextures": false,
+      "effectUsesAnimationPlaybackController": false,
+      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": true,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAugmentSizeControl": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": true,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": false,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": true,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": false,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": false,
+      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicExtrusion": false,
+      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMeshes": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalTexturesAudio": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": true,
+      "effectUsesFaceTracker3D": true,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": true,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": true,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenericML": false,
+      "effectUsesGeoanchor": false,
+      "effectUsesGeoanchorAnywhere": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHeadsetInfo": false,
+      "effectUsesHmdNetworkingAPI": false,
+      "effectUsesIdTracker": false,
+      "effectUsesIdentity": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": false,
+      "effectUsesInstantGame": false,
+      "effectUsesInstruction": true,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": false,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesLandmarkAR": false,
+      "effectUsesLayers": false,
+      "effectUsesLiveStreaming": false,
+      "effectUsesLocalDiscovery": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMovingTargetTracking": false,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeNavigation": false,
+      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlPickerTooltip": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderThumbTexture": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNativeUIControlSliderTypeProgress": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpticalFlow": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": false,
+      "effectUsesPageScopedIdentity": false,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": false,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPrefabScriptingModule": false,
+      "effectUsesPreviewCaptureOutputs": false,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRandomScriptingModule": false,
+      "effectUsesReactiveScriptingModule": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRemoteMaps": false,
+      "effectUsesRenderPasses": false,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesSceneScriptingModule": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": false,
+      "effectUsesShaderPicking": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncDomApis": false,
+      "effectUsesTargetRecognition": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": false,
+      "effectUsesTexturesScriptingModule": false,
+      "effectUsesTimeScriptingModule": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": true,
+      "effectUsesTypeScript": false,
+      "effectUsesUiCore": false,
+      "effectUsesUiPlanarBackend": false,
+      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesUnitsScriptingModule": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesVisualShaders": false,
+      "effectUsesVisualShadersSdf": false,
+      "effectUsesVoiceInteraction": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": true,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWebsockets": false,
+      "effectUsesWorldTracker": false,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWorldUnderstanding": false,
+      "effectUsesWorldUnderstandingV2": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "169.0",
+      "externalTexturesWhitelistedDomains": null,
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 13,
+      "facewaveMinVersion": 1,
+      "geoanchorLatitudes": [],
+      "geoanchorLongitudes": [],
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "identifier": "manifest:91546-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": null,
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "landmarkID": null,
+      "landmarkMeshID": null,
+      "landmarkMeshType": null,
+      "liveEffectSupportsNonLive": false,
+      "manuallyEnabledItemsIds": [],
+      "maxParticipantsCount": 0,
+      "modelName": "manifest",
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": "none",
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "targetRecognitionMinVersion": 2,
+      "touchGesturesSupportsLongPress": false,
+      "touchGesturesSupportsPan": false,
+      "touchGesturesSupportsPinch": false,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": false,
+      "touchGesturesSupportsTap": true,
+      "whitelistedDomains": null,
+      "witAppId": null,
+      "witClientToken": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": "plane",
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "identifier": "asset_attributions_model:91548-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "asset_attributions_model"
+    },
+    {
+      "identifier": "licenses_model:91550-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "licenses_model"
+    },
+    {
+      "children": [
+        {
+          "identifier": "playback_controller_model:99761-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "modelName": "playback_controller_model",
+          "name": "gameovercontroller",
+          "needsContinuousLooping": false,
+          "needsContinuousPlaying": false,
+          "soundIdentifier": "sound:99317-5d1cb12c-477d-4f6a-8ad7-bddd9508e279"
+        },
+        {
+          "identifier": "playback_controller_model:100207-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "modelName": "playback_controller_model",
+          "name": "jumpcontroller",
+          "needsContinuousLooping": false,
+          "needsContinuousPlaying": false,
+          "soundIdentifier": "sound:99313-5d1cb12c-477d-4f6a-8ad7-bddd9508e279"
+        },
+        {
+          "identifier": "playback_controller_model:100209-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "modelName": "playback_controller_model",
+          "name": "loopcontroler",
+          "needsContinuousLooping": true,
+          "needsContinuousPlaying": false,
+          "soundIdentifier": "sound:99315-5d1cb12c-477d-4f6a-8ad7-bddd9508e279"
+        }
+      ],
+      "identifier": "playback_controllers_model:91552-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "playback_controllers_model"
+    },
+    {
+      "identifier": "block_documents_model:91554-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "block_documents_model"
+    },
+    {
+      "identifier": "target:91556-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "target",
+      "targetPlatforms": [],
+      "targetUseCases": []
+    },
+    {
+      "identifier": "block_instances_model:91558-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "block_instances_model"
+    },
+    {
+      "identifier": "vectorImages:91560-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "vectorImages"
+    },
+    {
+      "children": [
+        {
+          "assetDataHash": "977775836809c90116b37ed2fe19c630",
+          "assetLocator": "sounds/jump.m4a",
+          "duration": 771.9954833984375,
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "identifier": "sound:99313-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "isExternalAsset": true,
+          "modelName": "sound",
+          "name": "jump.m4a"
+        },
+        {
+          "assetDataHash": "c07941b92eea0ac1583392cce2df5808",
+          "assetLocator": "sounds/loop.m4a",
+          "duration": 0,
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "identifier": "sound:99315-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "isExternalAsset": true,
+          "modelName": "sound",
+          "name": "loop.m4a"
+        },
+        {
+          "assetDataHash": "ba22f5fa04d9503447f1dfeaccfbfcdc",
+          "assetLocator": "sounds/gameover.m4a",
+          "duration": 3750,
+          "excludeDuringExport": false,
+          "excludeFromPackage": false,
+          "identifier": "sound:99317-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "isExternalAsset": true,
+          "modelName": "sound",
+          "name": "gameover.m4a"
+        }
+      ],
+      "identifier": "sounds:91562-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "sounds"
+    },
+    {
+      "identifier": "color_luts_data_model:91564-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "color_luts_data_model"
+    },
+    {
+      "forceStrictModeCompilation": true,
+      "identifier": "scripting_config_model:91566-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "isStrictModeChangeable": false,
+      "modelName": "scripting_config_model"
+    },
+    {
+      "identifier": "assistant_model:91568-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "assistant_model"
+    },
+    {
+      "identifier": "form_factor_settings_model:91570-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "form_factor_settings_model"
+    },
+    {
+      "identifier": "videos_model:91709-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "videos_model"
+    },
+    {
+      "identifier": "landmark_assets_model:91711-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "landmark_assets_model"
+    },
+    {
+      "identifier": "timelines_model:91717-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "timelines_model"
+    }
+  ],
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 169
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "macosx",
+  "documentType": "effect",
+  "id": "924417e46843ceaac442c910a80e7d9fbc362",
+  "identifier": "document:91498-63e760b6-1e36-45a3-a338-5aea720ac215",
+  "measurementUnit": "meter",
+  "modelName": "document",
+  "name": "Effect",
+  "objects": [
+    {
+      "categoriesOrder": [
+        "materials",
+        "textures",
+        "animation_sequences",
+        "audio",
+        "playback_controllers"
+      ],
+      "identifier": "assets_config_model:91715-63e760b6-1e36-45a3-a338-5aea720ac215",
+      "modelName": "assets_config_model"
+    }
+  ],
+  "previousDocumentIds": [
+    "9149663e760b61e3645a3a3385aea720ac215"
+  ],
+  "projectFormatType": "single_file",
+  "revision": "9149763e760b61e3645a3a3385aea720ac215",
+  "usingPatchesV2": true,
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 169
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "fromPatch": "template_patch_model:97569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:102949-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:102947-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:102953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:102957-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:102951-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:95953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:102959-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:102953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:92635-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:109571-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:109569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:93299-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:92495-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92493-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:92493-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:92497-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:93954-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+        "toPort": "1904643987045610065"
+      },
+      {
+        "fromPatch": "template_patch_model:92493-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "101",
+        "identifier": "patch_connection_model:92499-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:93958-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+        "toPort": "5768219463783794276"
+      },
+      {
+        "fromPatch": "template_patch_model:94450-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:92511-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92509-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:92509-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:92513-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:92503-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "6930457993484232104"
+      },
+      {
+        "fromPatch": "template_patch_model:92509-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "101",
+        "identifier": "patch_connection_model:92515-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "port_forwarding_patch_model:92507-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "14210826089544308444"
+      },
+      {
+        "fromPatch": "patch_group_model:93656-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1904643987045610065",
+        "identifier": "patch_connection_model:92519-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92517-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "patch_group_model:95944-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "6930457993484232104",
+        "identifier": "patch_connection_model:92521-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92517-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:92447-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:92633-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92631-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:92631-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:92641-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92635-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:93075-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "15111191023947607862",
+        "identifier": "patch_connection_model:92645-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92643-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:92643-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:92649-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92647-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:92647-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:92653-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:92651-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "patch_group_model:93656-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "5768219463783794276",
+        "identifier": "patch_connection_model:92903-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92901-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:93063-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:93067-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:93065-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:92643-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:93069-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:93063-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:92635-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:93077-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "patch_group_model:93071-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "15111191023947607862"
+      },
+      {
+        "fromPatch": "template_patch_model:92901-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:93273-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92899-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "patch_group_model:95944-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "14210826089544308444",
+        "identifier": "patch_connection_model:93275-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:92899-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:93297-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:93634-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:93299-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:93299-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:93638-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:93636-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:93660-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "2965773039495771155",
+        "identifier": "patch_connection_model:93640-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:93297-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:93297-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1002",
+        "identifier": "patch_connection_model:93646-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:93644-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:93644-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:93652-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:93650-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:93650-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:93654-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:93642-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:92635-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:93662-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "patch_group_model:93656-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "2965773039495771155"
+      },
+      {
+        "fromPatch": "template_patch_model:94170-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "101",
+        "identifier": "patch_connection_model:94176-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:94172-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:94172-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:94178-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "producer_patch_model:94168-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "100"
+      },
+      {
+        "fromPatch": "producer_patch_model:94168-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:94180-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:94174-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:95948-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "526904853044394500",
+        "identifier": "patch_connection_model:94448-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:94446-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:94446-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:94452-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:94450-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:94450-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "1001",
+        "identifier": "patch_connection_model:94464-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:94462-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:95948-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "526904853044394500",
+        "identifier": "patch_connection_model:94744-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:94742-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:94742-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:94746-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:94446-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "103"
+      },
+      {
+        "fromPatch": "template_patch_model:92517-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:94799-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:94797-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:92899-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:94801-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:94797-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:95948-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "526904853044394500",
+        "identifier": "patch_connection_model:95618-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95032-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:95948-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "526904853044394500",
+        "identifier": "patch_connection_model:95622-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95323-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:95616-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:95626-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95030-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "port_forwarding_patch_model:95948-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "526904853044394500",
+        "identifier": "patch_connection_model:95628-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95616-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:95030-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:95632-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:95630-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:95032-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:95940-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95030-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "3"
+      },
+      {
+        "fromPatch": "template_patch_model:95323-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:95942-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95030-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:94174-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:95950-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_connection_model",
+        "toPatch": "patch_group_model:95944-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "toPort": "526904853044394500"
+      },
+      {
+        "fromPatch": "template_patch_model:94797-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:95955-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:95953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:95957-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95951-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:95951-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:96355-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:96353-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:96353-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:96357-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:96351-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:92517-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:97555-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:97553-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:92899-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:97559-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:97557-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:97557-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:97561-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:97553-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:97553-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:97575-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:97573-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:97569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:97581-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "consumer_patch_model:97565-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "101"
+      },
+      {
+        "fromPatch": "template_patch_model:97573-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:97583-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:97569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "2"
+      },
+      {
+        "fromPatch": "template_patch_model:92635-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:98427-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:98425-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:98425-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:98431-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:98429-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:98429-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:98433-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:97569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "3"
+      },
+      {
+        "fromPatch": "template_patch_model:98425-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:98437-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:98435-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "1"
+      },
+      {
+        "fromPatch": "template_patch_model:98435-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "fromPort": "100",
+        "identifier": "patch_connection_model:98439-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_connection_model",
+        "toPatch": "template_patch_model:95951-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "toPort": "3"
+      }
+    ],
+    "graphs": [
+      {
+        "identifier": "patch_graph:91588-63e760b6-1e36-45a3-a338-5aea720ac215",
+        "modelName": "patch_graph",
+        "subpatches": [
+          "consumer_patch_model:102947-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "consumer_patch_model:102951-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "consumer_patch_model:109569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "consumer_patch_model:92895-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "consumer_patch_model:94033-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "consumer_patch_model:96351-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "consumer_patch_model:97565-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "patch_group_model:93071-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "patch_group_model:93656-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "patch_group_model:95944-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "producer_patch_model:94168-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:102953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:92447-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:92517-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:92631-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:92635-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:92899-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:92901-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:94170-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:94172-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:94174-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:94797-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:95951-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:95953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:96353-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:97553-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:97557-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:97569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:97573-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:98425-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:98429-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:98435-5d1cb12c-477d-4f6a-8ad7-bddd9508e279"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "identifier": "consumer_patch_model:102947-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "consumer_patch_model",
+        "name": "gameovercontroller",
+        "object": "playback_controller_model:99761-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          2036,
+          -268
+        ],
+        "values": []
+      },
+      {
+        "identifier": "consumer_patch_model:102951-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "consumer_patch_model",
+        "name": "jumpcontroller",
+        "object": "playback_controller_model:100207-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          1988,
+          164
+        ],
+        "values": []
+      },
+      {
+        "identifier": "consumer_patch_model:109569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "consumer_patch_model",
+        "name": "loopcontroler",
+        "object": "playback_controller_model:100209-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          668,
+          -244
+        ],
+        "values": []
+      },
+      {
+        "identifier": "consumer_patch_model:92651-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "consumer_patch_model",
+        "name": "bg1",
+        "object": "plane:91927-63e760b6-1e36-45a3-a338-5aea720ac215",
+        "objectProperty": "position",
+        "position": [
+          226,
+          -110
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                200,
+                -178,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "identifier": "consumer_patch_model:92895-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "consumer_patch_model",
+        "name": "test_hit",
+        "object": "plane:92527-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "objectProperty": "visible",
+        "position": [
+          2276,
+          -436
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": false
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "consumer_patch_model:93065-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "consumer_patch_model",
+        "name": "bg2",
+        "object": "plane:93607-5883a8fa-09b0-4de5-a6d4-a46e187aa5fe",
+        "objectProperty": "position",
+        "position": [
+          226,
+          34
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                1000,
+                -178,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "identifier": "consumer_patch_model:93636-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "consumer_patch_model",
+        "name": "collider",
+        "object": "plane:92187-702bab05-1b61-4f60-a564-f8d36085a932",
+        "objectProperty": "position",
+        "position": [
+          238,
+          -146
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                250,
+                -290,
+                -0.00018310546875
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "identifier": "consumer_patch_model:93642-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "consumer_patch_model",
+        "name": "ani_collider",
+        "object": "sequenceTexture:92337-702bab05-1b61-4f60-a564-f8d36085a932",
+        "objectProperty": "current_frame",
+        "position": [
+          260,
+          92
+        ],
+        "values": []
+      },
+      {
+        "identifier": "consumer_patch_model:94033-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "consumer_patch_model",
+        "name": "test_jump",
+        "object": "plane:93390-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "objectProperty": "visible",
+        "position": [
+          2180,
+          -124
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": false
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "consumer_patch_model:94462-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "consumer_patch_model",
+        "name": "player",
+        "object": "plane:91881-2b706abb-b196-4f8b-ae5e-89428875a529",
+        "objectProperty": "position",
+        "position": [
+          214,
+          -230
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -124.98870849609375,
+                -280,
+                -0.00054931640625
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "identifier": "consumer_patch_model:95630-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "consumer_patch_model",
+        "name": "ani_player",
+        "object": "sequenceTexture:92011-2b706abb-b196-4f8b-ae5e-89428875a529",
+        "objectProperty": "current_frame",
+        "position": [
+          46,
+          34
+        ],
+        "values": []
+      },
+      {
+        "identifier": "consumer_patch_model:96351-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "consumer_patch_model",
+        "name": "scoretext",
+        "object": "2_d_text_model:92761-702bab05-1b61-4f60-a564-f8d36085a932",
+        "objectProperty": "planar_text_text",
+        "position": [
+          2420,
+          44
+        ],
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "string",
+              "v": "0\n"
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "consumer_patch_model:97565-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "consumer_patch_model",
+        "name": "GameOver",
+        "object": "composition_model:92839-702bab05-1b61-4f60-a564-f8d36085a932",
+        "objectProperty": "visible",
+        "position": [
+          2012,
+          -340
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": false
+            }
+          }
+        ]
+      },
+      {
+        "groupDescription": "",
+        "groupName": "",
+        "identifier": "patch_group_model:93071-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "inputPorts": [
+          "patch_input_port_model:93073-7e46843c-eaac-442c-910a-80e7d9fbc362"
+        ],
+        "modelName": "patch_group_model",
+        "name": "Bg_animation",
+        "position": [
+          1076,
+          -220
+        ],
+        "subpatches": [
+          "consumer_patch_model:92651-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "consumer_patch_model:93065-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "port_forwarding_patch_model:93075-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:92643-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:92647-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:93063-7e46843c-eaac-442c-910a-80e7d9fbc362"
+        ],
+        "values": []
+      },
+      {
+        "groupDescription": "this is the x co ordima",
+        "groupName": "",
+        "identifier": "patch_group_model:93656-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "inputPorts": [
+          "patch_input_port_model:93658-7e46843c-eaac-442c-910a-80e7d9fbc362"
+        ],
+        "modelName": "patch_group_model",
+        "name": "collider_anim",
+        "outputPorts": [
+          "patch_output_port_model:93952-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+          "patch_output_port_model:93956-832f01f1-619a-4d1c-8a4d-4fb61706ac6f"
+        ],
+        "position": [
+          956,
+          -52
+        ],
+        "subpatches": [
+          "consumer_patch_model:93636-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "consumer_patch_model:93642-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "port_forwarding_patch_model:93660-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "port_forwarding_patch_model:93954-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+          "port_forwarding_patch_model:93958-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+          "template_patch_model:92493-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:93297-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:93299-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:93644-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:93650-7e46843c-eaac-442c-910a-80e7d9fbc362"
+        ],
+        "values": []
+      },
+      {
+        "groupDescription": "",
+        "groupName": "",
+        "identifier": "patch_group_model:95944-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "inputPorts": [
+          "patch_input_port_model:95946-7e46843c-eaac-442c-910a-80e7d9fbc362"
+        ],
+        "modelName": "patch_group_model",
+        "name": "Player_anim",
+        "outputPorts": [
+          "patch_output_port_model:92501-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "patch_output_port_model:92505-5d1cb12c-477d-4f6a-8ad7-bddd9508e279"
+        ],
+        "position": [
+          980,
+          68
+        ],
+        "subpatches": [
+          "consumer_patch_model:94462-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "consumer_patch_model:95630-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "port_forwarding_patch_model:92503-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "port_forwarding_patch_model:92507-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "port_forwarding_patch_model:95948-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:92509-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+          "template_patch_model:94446-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:94450-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:94742-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:95030-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:95032-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:95323-7e46843c-eaac-442c-910a-80e7d9fbc362",
+          "template_patch_model:95616-7e46843c-eaac-442c-910a-80e7d9fbc362"
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:92503-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "port_forwarding_patch_model",
+        "name": "x",
+        "position": [
+          548,
+          -124
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:92507-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "port_forwarding_patch_model",
+        "name": "y",
+        "position": [
+          548,
+          -28
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:93075-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Input",
+        "position": [
+          -460,
+          -28
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:93660-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Input",
+        "position": [
+          -532,
+          -100
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:93954-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+        "modelName": "port_forwarding_patch_model",
+        "name": "x",
+        "position": [
+          740,
+          -172
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:93958-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+        "modelName": "port_forwarding_patch_model",
+        "name": "y",
+        "position": [
+          740,
+          -76
+        ],
+        "values": []
+      },
+      {
+        "identifier": "port_forwarding_patch_model:95948-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "port_forwarding_patch_model",
+        "name": "Input",
+        "position": [
+          -320,
+          -50
+        ],
+        "values": []
+      },
+      {
+        "identifier": "producer_patch_model:94168-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "producer_patch_model",
+        "name": "faceTracker0",
+        "object": "facetracker:91819-63e760b6-1e36-45a3-a338-5aea720ac215",
+        "position": [
+          644,
+          44
+        ],
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:102953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "position": [
+          1796,
+          68
+        ],
+        "templateId": "builtin.toggle",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:92447-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Screen Tap",
+        "position": [
+          212,
+          -76
+        ],
+        "templateId": "builtin.tapGesture",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:92493-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Unpack",
+        "position": [
+          325.624994745478,
+          -27.046465500496765
+        ],
+        "templateId": "builtin.group.shaderVectorUnpack",
+        "values": [],
+        "variantInfo": "shader_vec3"
+      },
+      {
+        "identifier": "template_patch_model:92509-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Unpack",
+        "position": [
+          212,
+          -100
+        ],
+        "templateId": "builtin.group.shaderVectorUnpack",
+        "values": [],
+        "variantInfo": "shader_vec3"
+      },
+      {
+        "identifier": "template_patch_model:92517-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Equals",
+        "position": [
+          1172,
+          -52
+        ],
+        "templateId": "builtin.scalarEqToleranceOperator",
+        "values": [
+          {
+            "port": "3",
+            "value": {
+              "t": "double",
+              "v": 90
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:92631-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "position": [
+          380,
+          -100
+        ],
+        "templateId": "builtin.toggle",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:92635-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "play",
+        "position": [
+          524,
+          -148
+        ],
+        "templateId": "builtin.value",
+        "values": [],
+        "variantInfo": "boolean"
+      },
+      {
+        "identifier": "template_patch_model:92643-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "position": [
+          -326,
+          -134
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:92647-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "position": [
+          -134,
+          -134
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                200,
+                -178,
+                0
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -600,
+                -178,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "identifier": "template_patch_model:92899-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Greater Than",
+        "position": [
+          1412,
+          116
+        ],
+        "templateId": "builtin.binaryScalarGtOperator",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:92901-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Add",
+        "position": [
+          1220,
+          92
+        ],
+        "templateId": "builtin.variadicMathAdd",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 90
+            }
+          }
+        ],
+        "variadicInfo": {
+          "input": 2
+        },
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:93063-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "position": [
+          -134,
+          34
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                1000,
+                -178,
+                0
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                200,
+                -178,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "identifier": "template_patch_model:93297-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "position": [
+          -362,
+          -146
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 5
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:93299-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "position": [
+          -122,
+          -146
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                250,
+                -290,
+                0
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -250,
+                -290,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "identifier": "template_patch_model:93644-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Random",
+        "position": [
+          -122,
+          22
+        ],
+        "templateId": "builtin.random",
+        "values": [
+          {
+            "port": "3",
+            "value": {
+              "t": "double",
+              "v": 2
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:93650-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Round",
+        "position": [
+          94,
+          46
+        ],
+        "templateId": "builtin.mathRound",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:94170-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Face Finder",
+        "position": [
+          188,
+          44
+        ],
+        "templateId": "builtin.faceTracker",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:94172-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Face Select",
+        "position": [
+          404,
+          44
+        ],
+        "templateId": "builtin.facePicker",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "int",
+              "v": 0
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:94174-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Blink",
+        "position": [
+          836,
+          44
+        ],
+        "templateId": "builtin.blink",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:94446-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Animation",
+        "position": [
+          -314,
+          -206
+        ],
+        "templateId": "builtin.group.animation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 0.2
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:94450-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "position": [
+          -122,
+          -230
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -125,
+                -280,
+                0
+              ]
+            }
+          },
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                -125,
+                -10,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "identifier": "template_patch_model:94742-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Delay",
+        "position": [
+          -266,
+          -350
+        ],
+        "templateId": "builtin.delay",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0.5
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:94797-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "And",
+        "position": [
+          1580,
+          -76
+        ],
+        "templateId": "builtin.binaryBoolAndOperator",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:95030-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Option Switch",
+        "position": [
+          -122,
+          -14
+        ],
+        "templateId": "builtin.optionSwitch",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:95032-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Delay",
+        "position": [
+          -314,
+          10
+        ],
+        "templateId": "builtin.delay",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:95323-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Delay",
+        "position": [
+          -314,
+          130
+        ],
+        "templateId": "builtin.delay",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0.4
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:95616-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "template_patch_model",
+        "name": "Delay",
+        "position": [
+          -314,
+          250
+        ],
+        "templateId": "builtin.delay",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 0.6
+            }
+          }
+        ],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:95951-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "position": [
+          1964,
+          -28
+        ],
+        "templateId": "builtin.counter",
+        "values": [
+          {
+            "port": "5",
+            "value": {
+              "t": "int",
+              "v": 999
+            }
+          }
+        ]
+      },
+      {
+        "identifier": "template_patch_model:95953-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "position": [
+          1828,
+          -76
+        ],
+        "templateId": "builtin.pulse",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:96353-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "To String",
+        "position": [
+          2204,
+          68
+        ],
+        "templateId": "builtin.toStringComponent",
+        "values": [],
+        "variantInfo": "float"
+      },
+      {
+        "identifier": "template_patch_model:97553-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "And",
+        "position": [
+          1532,
+          -340
+        ],
+        "templateId": "builtin.binaryBoolAndOperator",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:97557-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Not",
+        "position": [
+          1412,
+          -196
+        ],
+        "templateId": "builtin.negation",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:97569-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "position": [
+          1844,
+          -292
+        ],
+        "templateId": "builtin.toggle",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:97573-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "position": [
+          1700,
+          -244
+        ],
+        "templateId": "builtin.pulse",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:98425-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "play",
+        "position": [
+          1676,
+          -484
+        ],
+        "templateId": "builtin.value",
+        "values": [],
+        "variantInfo": "boolean"
+      },
+      {
+        "identifier": "template_patch_model:98429-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "position": [
+          2008,
+          -412
+        ],
+        "templateId": "builtin.pulse",
+        "values": []
+      },
+      {
+        "identifier": "template_patch_model:98435-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "template_patch_model",
+        "name": "Pulse",
+        "position": [
+          1940,
+          -172
+        ],
+        "templateId": "builtin.pulse",
+        "values": []
+      }
+    ],
+    "ports": [
+      {
+        "forwardingPatch": "port_forwarding_patch_model:93075-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "identifier": "patch_input_port_model:93073-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_input_port_model",
+        "portDescription": "",
+        "portName": "Input",
+        "portTag": "15111191023947607862",
+        "portType": "bool",
+        "widgetStyle": "default"
+      },
+      {
+        "forwardingPatch": "port_forwarding_patch_model:93660-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "identifier": "patch_input_port_model:93658-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_input_port_model",
+        "portDescription": "",
+        "portName": "Input",
+        "portTag": "2965773039495771155",
+        "portType": "bool",
+        "widgetStyle": "default"
+      },
+      {
+        "forwardingPatch": "port_forwarding_patch_model:95948-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "identifier": "patch_input_port_model:95946-7e46843c-eaac-442c-910a-80e7d9fbc362",
+        "modelName": "patch_input_port_model",
+        "portDescription": "",
+        "portName": "Input",
+        "portTag": "526904853044394500",
+        "portType": "pulse",
+        "widgetStyle": "default"
+      },
+      {
+        "forwardingPatch": "port_forwarding_patch_model:92503-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "identifier": "patch_output_port_model:92501-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_output_port_model",
+        "portDescription": "x coordinates of player",
+        "portName": "x",
+        "portTag": "6930457993484232104",
+        "portType": "float",
+        "widgetStyle": "default"
+      },
+      {
+        "forwardingPatch": "port_forwarding_patch_model:92507-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "identifier": "patch_output_port_model:92505-5d1cb12c-477d-4f6a-8ad7-bddd9508e279",
+        "modelName": "patch_output_port_model",
+        "portDescription": "y coordinates of player",
+        "portName": "y",
+        "portTag": "14210826089544308444",
+        "portType": "float",
+        "widgetStyle": "default"
+      },
+      {
+        "forwardingPatch": "port_forwarding_patch_model:93954-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+        "identifier": "patch_output_port_model:93952-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+        "modelName": "patch_output_port_model",
+        "portDescription": "x coordinate of the collider",
+        "portName": "x",
+        "portTag": "1904643987045610065",
+        "portType": "float",
+        "widgetStyle": "default"
+      },
+      {
+        "forwardingPatch": "port_forwarding_patch_model:93958-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+        "identifier": "patch_output_port_model:93956-832f01f1-619a-4d1c-8a4d-4fb61706ac6f",
+        "modelName": "patch_output_port_model",
+        "portDescription": "y coordinate of the collider",
+        "portName": "y",
+        "portTag": "5768219463783794276",
+        "portType": "float",
+        "widgetStyle": "default"
+      }
+    ]
+  }
+}
